@@ -1,0 +1,49 @@
+
+/public/hot
+/public/storage/app/public/photos/*
+/public/assets/*
+/storage/*.key
+
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Dependencies
+/node_modules
+/vendor
+
+images/*
+
+# Environment
+.env
+
+
+# Well-known
+.well-known/
+
+# HTTP Test
+test.http
+TEST.http
+
+# macOS
+.DS_Store
+
+# Semua file ZIP
+*.zip
+
+*.sql
+
+# Storage (runtime Laravel)
+storage/app/*
+!storage/app/.gitignore
+
+storage/framework/*
+!storage/framework/.gitignore
+
+storage/logs/*
+!storage/logs/.gitignore
+
+# Jika font hasil generate tidak ingin ikut
+storage/fonts/
