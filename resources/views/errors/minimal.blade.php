@@ -48,7 +48,7 @@
             }
         </style> --}}
    <!-- plugins:css -->
-   <link rel="shortcut icon" href="{{asset('assets/admin/images/'.\Smt\Masterweb\Models\Option::first()->favicon)}}"/>
+   <link rel="shortcut icon" href="{{asset('assets/admin/images/'.\App\Models\Option::first()->favicon)}}"/>
    <link rel="stylesheet" href="{{ asset('assets/admin/vendors/iconfonts/font-awesome/css/all.min.css')}}">
    <link rel="stylesheet" href="{{ asset('assets/admin/vendors/css/vendor.bundle.base.css')}}">
    <link rel="stylesheet" href="{{ asset('assets/admin/vendors/css/vendor.bundle.addons.css')}}">

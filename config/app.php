@@ -175,8 +175,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        Smt\Masterweb\MasterWebServiceProvider::class,
-        Smt\Masterweb\SmtServiceProvider::class,
+
         
         UniSharp\LaravelFilemanager\LaravelFilemanagerServiceProvider::class,
          Intervention\Image\ImageServiceProvider::class,
@@ -231,7 +230,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        'SmtHelp' => Smt\Masterweb\Helpers\Smt::class,
+        'SmtHelp' => App\Helpers\Smt::class,
 
         // Image
         'Image'     => Intervention\Image\Facades\Image::class,
