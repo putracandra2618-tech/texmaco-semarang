@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\Schema; 
 
 class CreateTbRoleTable extends Migration
 {
@@ -18,7 +18,7 @@ class CreateTbRoleTable extends Migration
             $table->uuid('privilege_id');
             $table->integer('menu_id');
             $table->char('create',4);
-            $table->char('read',4);
+            $table->char('read',4);     
             $table->char('update',4);
             $table->char('delete',4);
             $table->timestamps();
